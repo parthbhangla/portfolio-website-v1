@@ -1,5 +1,5 @@
 import styles from "./ProjectsStyles.module.css";
-import viberr from "../../assets/viberr.png";
+import FA from "../../assets/Football-Analysis.png";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -8,10 +8,28 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
+          src={FA}
           link="https://github.com/parthbhangla/Tennis-Analysis"
-          h3="Tennis Analysis"
-          p="Tennis Analysis"
+          h3="Football Analysis"
+          p="Description"
+        />
+        <ProjectCard
+          src={FA}
+          link="https://github.com/parthbhangla/wordle-solver"
+          h3="Wordle-Solver"
+          p="Description"
+        />
+        <ProjectCard
+          src={FA}
+          link="https://github.com/parthbhangla/Monkeytype-Cheat"
+          h3="Monkeytype-Cheat"
+          p="Description"
+        />
+        <ProjectCard
+          src={FA}
+          link="https://github.com/parthbhangla/portfolio-website-v1"
+          h3="Portfolio Website"
+          p="Description"
         />
       </div>
     </section>
